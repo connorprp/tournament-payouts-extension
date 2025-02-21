@@ -1,12 +1,11 @@
-alert("JS Loaded");
+/*alert("JS Loaded");*/
 
 const text = document.getElementById("text");
 const button = document.getElementById("btn");
-const input = document.getElementById("text");
+const input = document.getElementById("input");
 
 button.addEventListener("click", updateText);
 
 function updateText() {
-    const newText = input.value;
-    text.innerText = newText;
+    text.textContent = input.value;
 }
