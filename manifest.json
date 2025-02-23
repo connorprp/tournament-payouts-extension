@@ -1,15 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "URL Logger",
+  "name": "Payouts",
   "version": "1.0",
-  "description": "Logs the current tab's URL to the console.",
-  "permissions": ["tabs", "activeTab"],
+  "description": "Calculates payouts for golf tournaments",
   "action": {
-    "default_title": "Log Current URL"
+    "default_popup": "hello.html"
   },
-  "background": {
-    "service_worker": "script.js"
-  }
+  "icons": {
+    "16": "/icons/golfball.png",
+    "48": "/icons/golfball.png",
+    "128": "/icons/golfball.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
 }
 
   

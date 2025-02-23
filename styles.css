@@ -1,3 +1,131 @@
+.background {
+    position: absolute;
+    background-position: center;
+    height: 96%;
+    width: 100%;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.BG8sEnMnhzhzwRT_-YBNZwHaE9%26pid%3DApi&f=1&ipt=541754929f6541f0468ec88d493b822a082beebfbbb166a3241e9977dfed33bc&ipo=images");
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+    margin-left: -10px;
+    margin-top: -20px;
+    background-repeat: repeat-y;
+}
+
 body {
-    background-color: aqua;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+button {
+    margin: auto auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(190, 188, 51);
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    width: auto;
+}
+
+button:hover {
+    background-color: rgb(163, 161, 18);
+}
+
+#table {
+    margin: auto auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border-spacing: 20px;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+}
+
+#result {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    margin-bottom: 5px;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    border: 2px solid black;
+}
+
+a {
+    display: block;
+    color: cyan;
+    font-size: 20px;
+    margin: 2px;
+    margin-top: 2px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+nav {
+    display: flex;
+    gap: 2em; 
+    align-items: center;
+    padding-block:.5em;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    background: gray;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#numPlaces {
+    margin: auto auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(190, 188, 51);
+    padding: 6px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.text {
+    margin: auto auto;
+    margin-top: 20px auto;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 6px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#potAmount {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#potAmount:hover {
+    background-color: lightgrey;
+}
+
+[id^="place"] {
+    margin: auto auto;
+    margin-top: 20px auto;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+[id^="place"]:hover {
+    background-color: lightgrey;
 }
