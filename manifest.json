@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Calculates payouts for golf tournaments",
   "action": {
-    "default_popup": "hello.html"
+    "default_popup": "payouts.html"
   },
   "icons": {
     "16": "/icons/golfball.png",
